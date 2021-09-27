@@ -12,7 +12,7 @@ RUN apk add --no-cache \
 WORKDIR /go/src/app
 
 COPY . /go/src/app
-RUN go get -t -v && \
+RUN go get -v && \
     go install
 
 ENTRYPOINT ["app"]
