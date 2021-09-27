@@ -1,4 +1,4 @@
-FROM --platform=linux/arm64 golang:1.6-alpine
+FROM --platform=linux/arm64 golang:1.7-alpine
 
 LABEL org.label-schema.vcs-url="https://github.com/wikiwi/robots-disallow" \
       org.label-schema.vendor=wikiwi.io \
