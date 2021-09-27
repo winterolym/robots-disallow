@@ -12,6 +12,8 @@ RUN apk add --no-cache \
 WORKDIR /go/src/app
 
 COPY . /go/src/app
+
+RUN go env -w GO111MODULE=auto
 RUN go get -v && \
     go install
 
