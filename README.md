@@ -1,5 +1,5 @@
 # robots-disallow
-robots-disallow implements a http server serving content of a robots.txt file disallowing all robots.
+robots-disallow implements a http server serving content of a robots.txt file disallowing all robots for arm64.
 
 [![Build Status Widget]][Build Status] [![Coverage Status Widget]][Coverage Status] [![Code Climate Widget]][Code Climate] [![MicroBadger Image Widget]][MicroBadger URL]
 
@@ -31,7 +31,4 @@ robots-disallow implements a http server serving content of a robots.txt file di
     curl localhost:8080
     User-agent: *
     Disallow: /
-
-## Docker Hub
-Automated build is available at the [Docker Hub](https://hub.docker.com/r/wikiwi/robots-disallow).
 
